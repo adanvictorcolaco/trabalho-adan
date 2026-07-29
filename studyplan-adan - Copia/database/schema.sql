@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS study_plans (
+  id SERIAL PRIMARY KEY,
+  linguagem VARCHAR(100) NOT NULL,
+  observacoes TEXT NOT NULL,
+  plano TEXT NOT NULL,
+  criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
