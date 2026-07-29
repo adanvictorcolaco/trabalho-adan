@@ -1,0 +1,20 @@
+{
+  "name": "studyplan-adan",
+  "version": "1.0.0",
+  "description": "API MVC para gerar plano de estudos usando Gemini e salvar no Postgres",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
